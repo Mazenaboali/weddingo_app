@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "556196159093",
+    "project_id": "weddingo-221b0",
+    "storage_bucket": "weddingo-221b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556196159093:android:e1591205bb46e459ea223c",
+        "android_client_info": {
+          "package_name": "com.example.weddingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556196159093-2hde6opie5ue4usms5jal6efrm9n1179.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAIBzvJ7YUH51zauelQErMo6fywo9JSAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556196159093-2hde6opie5ue4usms5jal6efrm9n1179.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "556196159093-5eb9bkdrjd22r910d297m42u3o6dh1qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.weddingo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
