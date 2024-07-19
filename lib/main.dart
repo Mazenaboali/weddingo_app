@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:weddingo/data_base/hall.dart';
 import 'package:weddingo/ui/Hall_direction_widget.dart';
 import 'package:weddingo/ui/hall_details_screen.dart';
 import 'firebase_options.dart';

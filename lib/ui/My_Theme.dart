@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class MyTheme
 {
-  static final lightTheme=ThemeData(
-      primaryColor: Color(0xFF588157),
+  static final myTheme=ThemeData(
+      primaryColor: Color(0xff598158),
       textTheme: TextTheme(
           headline6: TextStyle(
             fontSize:22 ,

@@ -62,6 +62,7 @@ flutter_icons:
 
 
 
+
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -98,9 +99,10 @@ flutter:
   # example:
   # fonts:
   #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/Fonts/NunitoSans_7pt_Condensed-Regular.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

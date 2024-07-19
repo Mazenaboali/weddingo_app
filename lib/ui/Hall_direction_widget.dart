@@ -4,8 +4,8 @@ import 'package:weddingo/ui/hall_details_screen.dart';
 class HallDirection extends StatelessWidget
 {
   static const String routeName='HallDirection';
-  double lat=HallDetailsScreen.hall2!.Latitude??0.0;
-  double lng=HallDetailsScreen.hall2?.Longitude??0.0;
+  double lat=HallDetailsScreen.hall2.Latitude??0.0;
+  double lng=HallDetailsScreen.hall2.Longitude??0.0;
  late CameraPosition hallPosition=
     CameraPosition(
       target: LatLng(lat,lng),
@@ -16,7 +16,7 @@ class HallDirection extends StatelessWidget
 
  late Set<Marker>markers={
   Marker(
-    markerId:MarkerId(HallDetailsScreen.hall2?.MarkerId??'') ,
+    markerId:MarkerId(HallDetailsScreen.hall2.MarkerId??'') ,
     position:latlng,
   )
 };

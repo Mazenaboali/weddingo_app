@@ -14,12 +14,12 @@ class GovernorateTap extends StatelessWidget {
       padding: EdgeInsets.all(8),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
-          color: selected ? MyTheme.lightTheme.primaryColor : Colors.white,
-          border: Border.all(color: MyTheme.lightTheme.primaryColor)),
+          color: selected ? MyTheme.myTheme.primaryColor : Colors.white,
+          border: Border.all(color: MyTheme.myTheme.primaryColor)),
       child: Center(
         child: Text(
           governorate,
-          style: TextStyle(color: selected ? Colors.white : MyTheme.lightTheme.primaryColor),
+          style: TextStyle(color: selected ? Colors.white : MyTheme.myTheme.primaryColor),
         ),
       ),
     );

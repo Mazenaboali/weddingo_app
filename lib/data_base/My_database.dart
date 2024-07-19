@@ -11,9 +11,8 @@ class MyDataBase {
             toFirestore: (hall, options) => hall.ToFirestore());
     return hallsCollections;
   }
-
-   static Stream<QuerySnapshot<Hall>> getHallsRealTieUpdates(String x)  {
-    var querySnapShot = getHallsCollection().where('PrimaryLocation',isEqualTo:x).snapshots();
+   static Stream<QuerySnapshot<Hall>> getHallsRealTimeUpdates(String location)  {
+    var querySnapShot = getHallsCollection().where('PrimaryLocation',isEqualTo:location).snapshots();
     return querySnapShot;
   }
 }

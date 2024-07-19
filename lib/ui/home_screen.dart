@@ -11,26 +11,22 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [
-      Container(
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('assets/images/back.jpg'), fit: BoxFit.fill)),
-      ),
-      Scaffold(
-        backgroundColor: Colors.transparent,
-          appBar: AppBar(
-            backgroundColor: MyTheme.lightTheme.primaryColor,
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(25),
-                    bottomRight: Radius.circular(25))),
-            title: Text('WEDDINGO'),
-            centerTitle: true,
-          ),
-          body: GovernorateTabsWidget()),
-    ]);
+    return Scaffold(
+      backgroundColor: Colors.white,
+        appBar: AppBar(
+          backgroundColor: MyTheme.myTheme.primaryColor,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(25),
+                  bottomRight: Radius.circular(25))),
+          title: Text('Weddingo',style: TextStyle(
+            color: Colors.white,
+            fontFamily: 'NunitoSans',
+            fontSize: 27,
+            fontWeight: FontWeight.w700
+          )),
+          centerTitle: true,
+        ),
+        body: GovernorateTabsWidget());
   }
 }
