@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weddingo/governorate_tabs_widget.dart';
+import 'package:weddingo/ui/governorate_tabs_widget.dart';
 import 'package:weddingo/ui/My_Theme.dart';
 
 class HomeScreen extends StatefulWidget {
