@@ -64,6 +64,6 @@ class DefaultFirebaseOptions {
     projectId: 'weddingo-221b0',
     storageBucket: 'weddingo-221b0.appspot.com',
     iosClientId: '556196159093-5eb9bkdrjd22r910d297m42u3o6dh1qo.apps.googleusercontent.com',
-    iosBundleId: 'com.example.weddingo',
+    iosBundleId: 'com.weddingo.user',
   );
 }
