@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:556196159093:android:e1591205bb46e459ea223c",
         "android_client_info": {
-          "package_name": "com.weddingo.user"
+          "package_name": "com.halls_app.weddingo"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "556196159093-5eb9bkdrjd22r910d297m42u3o6dh1qo.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.weddingo.user"
+                "bundle_id": "com.halls_app.weddingo"
               }
             }
           ]
